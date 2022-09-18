@@ -1,0 +1,20 @@
+{
+	"name": "natour-api",
+	"version": "1.0.0",
+	"description": "A project from node tutorial",
+	"main": "app.js",
+	"scripts": {
+		"dev": "nodemon server.js"
+	},
+	"author": "Ibrahim Frank",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.0.2",
+		"express": "^4.18.1",
+		"mongoose": "^6.6.0",
+		"morgan": "^1.10.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.19"
+	}
+}
